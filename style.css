@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.header__title{
+    fill: #495567;
+}
+
+.header__logo{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+nav{
+    margin-left: 600px;
+    position: relative;
+    color: #939CAA;
+    font-family:'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    bottom: 20px;
+}
+
+a{
+    color: #939CAA;
+    font-family:'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-left: 40px;
+}
+
+.header__btn{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    color: #FFF;
+text-align: center;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+border: 1px solid #FCB72B;
+margin-left: 1300px;
+position: relative;
+bottom: 50px;
+transition: 0.4s ease-in;
+}
+
+.header__btn:hover{
+    background: #FFF;
+    color: #FCB72B;
+}
+
+.currer__img{
+    width: 1600px;
+ margin-left: 160px;
+ opacity: 0.6;
+background: #2F3B59;
+}
+
+.currer__title{
+    width: 500px;
+    height: 112px;
+color: #FFF;
+font-family: 'Space Mono';
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 100% */
+letter-spacing: -2.5px;
+margin-left: 350px;
+position: relative;
+bottom: 550px;
+}
+
+.currer__strelka{
+    margin-left: 160px;
+    position: relative;
+    bottom: 450px;
+}
+
+.currer__desc{
+    width: 405px;
+    height: 100px;
+    color: #FFF;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+margin-left: 300px;
+position: relative;
+bottom: 506px;
+margin-left: 450px;
+}
+
+.currer__btn{
+    color: #FFF;
+text-align: center;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+width: 180px;
+height: 53px;
+background: #FCB72B;
+border: 1px solid #FCB72B;
+margin-left: 450px;
+position: relative;
+bottom: 460px;
+transition: 0.4s ease;
+}
+
+.currer__btn:hover{
+    background: #FFF;
+    color: #FCB72B;
+    box-shadow: 10px 8px 8px #FCB72B;
+}
+
+.currer__strelka1{
+    margin-left: 300px;
+    position: relative;
+    bottom: 570px;
+}
+
+.currer__strelka2{
+    position: relative;
+    bottom: 535px;
+    right: 40px;
+}
+
+.our__strelka{
+   position: relative;
+   bottom: 200px;
+   margin-left: 200px;
+}
+
+.our__photo1{
+    margin-left: 300px;
+    position: relative;
+    bottom: 260px;
+}
+
+.our__box1__title{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+margin-left: 300px;
+position: relative;
+bottom: 220px;
+}
+
+.out__box1__desc{
+    color: #939CAA;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+width: 350px;
+height: 100px;
+margin-left: 300px;
+position: relative;
+bottom: 190px;
+}
+
+.our__box1{
+    position: relative;
+    right: 50px;
+}
+
+.our__photo2{
+    margin-left: 650px;
+    position: relative;
+    bottom: 490px;
+}
+
+.our__box1__title2{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+margin-left: 650px;
+position: relative;
+bottom: 450px;
+}
+
+.our__box1__desc2{
+    margin-left: 650px;
+    width: 350px;
+    height: 100px;
+    color: #939CAA;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+position: relative;
+bottom: 420px;
+}
+
+.our__photo3{
+    margin-left: 1080px;
+    position: relative;
+    bottom: 720px;
+}
+
+.our__box1__title3{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+margin-left: 1080px;
+position: relative;
+bottom: 680px;
+}
+
+.our__box1__desc3{
+    width: 350px;
+    height: 100px;
+    color: #939CAA;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+position: relative;
+bottom: 650px;
+margin-left: 1080px;
+}
+
+.about__people__title{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+width: 445px;
+height: 96px;
+margin-left: 300px;
+position: relative;
+bottom: 300px;
+}
+
+.about__people__desc{
+    width: 445px;
+    height: 100px;
+    margin-left: 300px;
+    position: relative;
+    bottom: 250px;
+    color: #939CAA;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+}
+
+.about__people__btn{
+    width: 180px;
+height: 53px;
+background: #FCB72B;
+    color: #FFF;
+text-align: center;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+border: 1px solid #FCB72B;
+margin-left: 300px;
+position: relative;
+bottom: 180px;
+transition: 0.4s ease;
+}
+
+.about__people__btn:hover{
+    background: #FFF;
+    color: #FCB72B;
+    box-shadow: 7px 7px 5px #FCB72B;
+}
+
+.about__people__photo1{
+    margin-left: 1200px;
+    position: relative;
+    bottom: 600px;
+}
+
+.about__people__strelka{
+    margin-left: 1100px;
+    position: relative;
+    bottom: 750px;
+}
+
+.sun{
+    position: relative;
+    bottom: 340px;
+}
+
+.sun__img{
+    border-radius: 220px;
+    margin-left: 300px;
+}
+
+.sun__strelka{
+position: relative;
+right: 710px;
+bottom: 290px;
+}
+
+.sun__title{
+    width: 445px;
+    height: 96px;
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+margin-left: 1000px;
+position: relative;
+bottom: 400px;
+}
+
+.sun__desc{
+    color: #939CAA;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+width: 445px;
+height: 100px;
+margin-left: 1000px;
+position: relative;
+bottom: 350px;
+}
+
+.sun__btn{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    color: #FFF;
+text-align: center;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+border: 1px solid #FCB72B;
+margin-left: 1000px;
+position: relative;
+bottom: 280px;
+transition: 0.4s ease;
+}
+
+.sun__btn:hover{
+    background: #FFF;
+    color: #FCB72B;
+    box-shadow: 10px 8px 8px #FCB72B;
+}
+
+.money__title{
+    width: 445px;
+    height: 96px;
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+margin-left: 300px;
+position: relative;
+bottom: 250px;
+}
+
+.money__desc{
+    width: 445px;
+    height: 100px;
+    color: #939CAA;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+margin-left: 300px;
+position: relative;
+bottom: 200px;
+}
+
+.money__btn{
+    background: #FCB72B;
+    width: 180px;
+    height: 53px;
+   color: #FFF;
+text-align: center;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+border: 1px solid #FCB72B;
+margin-left: 300px;
+position: relative;
+bottom: 130px;
+transition: 0.4s ease;
+}
+
+.money__btn:hover{
+    background: #FFF;
+    color: #FCB72B;
+    box-shadow: 10px 8px 8px #FCB72B;
+}
+
+.money__photo{
+    margin-left: 990px;
+    border-radius: 220px;
+    position: relative;
+    bottom: 540px;
+}
+
+.money__photo1{
+    margin-left: 1162px;
+    position: relative;
+    bottom: 900px;
+}
+
+footer{
+    width: 1600px;
+    height: 500px;
+    background: #495567;
+    position: relative;
+    bottom: 70px;
+    margin-left: 150px;
+}
+
+.footer__title{
+    width: 415px;
+    height: 96px;
+    color: #FFF;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+margin-left: 165px;
+position: absolute;
+top: 102px;
+}
+
+.apple{
+    width: 159px;
+    height: 56px;
+    background: #E5ECF4;
+    border-radius: 4px;
+    position: relative;
+    top: 122px;
+    margin-left: 1000px;
+}
+
+
+.apple__photo{
+    padding: 14px 16px;
+}
+
+.apple__title{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.446px;
+position: relative;
+bottom: 50px;
+margin-left: 52px;
+}
+
+.apple__appstore{
+    color: #2F3B59;
+font-family: 'Space Mono';
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+letter-spacing: -0.893px;
+margin-left: 52px;
+position: relative;
+bottom: 50px;
+}
+
+.playmarket{
+    width: 182px;
+    height: 56px;
+    border-radius: 4px;
+    background: #E5ECF4;    
+    position: relative;
+    top: 65px;
+    margin-left: 1200px;
+}
+
+.playmarket__logo{
+    padding: 14px 16px;
+}
+
+.playmarket__title{
+color: #2F3B59;
+font-family: 'Space Mono';
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.446px;
+position: relative;
+bottom: 50px;
+margin-left: 52px;
+}
+
+.playmarket__desc{
+    margin-left: 52px;
+position: relative;
+bottom: 50px;
+color: #495567;
+font-family: 'Space Mono';
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+letter-spacing: -0.893px;
+}
+
+.footer1{
+    width: 1600px;
+    height: 120px;
+    background: #333A44;
+    position: relative;
+    top: 267px;
+}
+
+.footer1__logo{
+    margin-left: 168.6px;
+    position: relative;
+    top: 45px;
+}
+
+.footer1__title1{
+    width: 46px;
+    height: 25px;
+    color: #939CAA;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+margin-left: 380px;
+position: relative;
+top: 15px;
+}
+
+.footer1__title2{
+    color: #939CAA;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+margin-left: 500px;
+position: relative;
+bottom: 10px;
+}
+
+.footer1__title3{
+    color: #939CAA;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+margin-left: 650px;
+position: relative;
+bottom: 35px;
+}
+
+.social__media{
+    margin-left: 1200px;
+    position: relative;
+    bottom: 60px;
+}
+
+.money{
+    position: relative;
+    top: 150px;
+}

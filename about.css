@@ -1,0 +1,673 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header__title{
+    fill: #495567;
+}
+
+.header__logo{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+nav{
+    margin-left: 600px;
+    position: relative;
+    color: #939CAA;
+    font-family:'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    bottom: 20px;
+}
+
+a{
+    color: #939CAA;
+    font-family:'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-left: 40px;
+}
+
+.header__btn{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    color: #FFF;
+text-align: center;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+border: 1px solid #FCB72B;
+margin-left: 1300px;
+position: relative;
+bottom: 50px;
+transition: 0.4s ease;
+}
+
+.header__btn:hover{
+    background: #FFF;
+    color: #FCB72B;
+}
+
+.currer__photo{
+    margin-left: 220px;
+}
+
+.currer__title{
+color: #FFF;
+font-family: 'Space Mono';
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 100% */
+letter-spacing: -2.5px;
+margin-left: 400px;
+position: relative;
+bottom: 130px;
+}
+
+.phone__title{
+    width: 445px;
+    height: 96px;
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+margin-left: 250px;
+position: relative;
+top: 200px;
+}
+
+.phone__desc{
+    width: 445px;
+    height: 75px;
+    color: #939CAA;
+    font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+margin-left: 250px;
+position: relative;
+top: 240px;
+}
+
+.phone__photo{
+    border-radius: 230px;
+    margin-left: 1000px;
+    position: relative;
+    bottom: 60px;
+}
+
+.phone__strelka{
+    margin-left: 870px;
+    position: relative;
+    bottom: 250px;
+}
+
+.metro__photo{
+    margin-left: 250px;
+}
+
+.metro__strelka{
+    position: relative;
+    right: 705px;
+    bottom: 300px;
+}
+
+.metro__mask{
+    position: relative;
+    right: 1180px;
+}
+
+.metro__text{
+    position: relative;
+    top: 40px;
+}
+
+.metro__title{
+    width: 445px;
+    height: 96px;
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+margin-left: 1100px;
+position: relative;
+bottom: 400px;
+}
+
+.metro__desc{
+    width: 445px;
+    height: 75px;
+    margin-left: 1100px;
+    bottom: 360px;
+    color: #939CAA;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+position: relative;
+bottom: 360px;
+}
+
+.our_services__title{
+    color: #495567;
+text-align: center;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+}
+
+.our_services__photo1{
+    margin-left: 300px;
+    position: relative;
+    top: 70px;
+}
+
+.our_services__boxes{
+    display: flex;
+}
+
+.our_services__title1{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+margin-left: 420px;
+position: relative;
+top: 100px;
+}
+
+.our_services__desc1{
+    color: #939CAA;
+text-align: center;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+width: 350px;
+height: 75px;
+margin-left: 300px;
+position: relative;
+top: 130px;
+}
+
+.our_services__photo2{
+    position: relative;
+    top: 75px;
+    margin-left: 100px;
+}
+
+.our_services__title2{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+position: relative;
+top: 100px;
+margin-left: 190px;
+}
+
+.our_services__desc2{
+    width: 350px;
+    height: 75px;
+    color: #939CAA;
+text-align: center;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+margin-left: 130px;
+position: relative;
+top: 135px;
+}
+
+.our_services__photo3{
+    margin-left: 70px;
+    position: relative;
+    top: 70px;
+}
+
+.our_services__title3{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+margin-left: 160px;
+position: relative;
+top: 100px;
+}
+
+.our_services__desc3{
+    width: 350px;
+    height: 75px;
+    color: #939CAA;
+text-align: center;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+margin-left: 100px;
+position: relative;
+top: 130px;
+}
+
+.request__title{
+    color: #495567;
+text-align: center;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+position: relative;
+top: 250px;
+}
+
+.workers__title{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 120% */
+letter-spacing: -1.786px;
+position: relative;
+top: 500px;
+margin-left: 320px;
+}
+
+.request__box1{
+    width: 900px;
+    height: 250px;
+    background: #F2F5F9;
+    margin-left: 700px;
+    position: relative;
+    top: 470px;
+}
+
+.request__title1{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+position: relative;
+top: 80px;
+margin-left: 150px;
+}
+
+.request__desc1{
+    width: 650px;
+    height: 75px;
+    color: #495567;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+margin-left: 150px;
+position: relative;
+top: 120px;
+}
+
+.strelka1{
+    margin-left: 850px;
+    position: relative;
+    bottom: 30px;
+}
+
+.request__box2{
+    width: 900px;
+    height: 130px;
+    background: #F2F5F9;
+    margin-left: 700px;
+    position: relative;
+    top: 490px;
+}
+
+
+.request__title2{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+margin-left: 150px;
+position: relative;
+top: 50px;
+}
+
+.strelka2{
+    margin-left: 850px;
+    position: relative;
+    top: 30px;
+}
+
+.request__box3{
+    width: 900px;
+    height: 130px;
+    background: #F2F5F9;
+   margin-left: 700px;
+   position: relative;
+   top: 520px;
+}
+
+.request__title3{
+    position: relative;
+    top: 50px;
+    margin-left: 150px;
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+}
+
+.driver__title{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 120% */
+letter-spacing: -1.786px;
+margin-left: 320px;
+position: relative;
+top: 600px;
+}
+
+.driver__box1{
+    width: 900px;
+    height: 250px;
+    background: #F2F5F9;
+    margin-left: 700px;
+    position: relative;
+    top: 570px;
+}
+
+.driver__title1{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+margin-left: 150px;
+position: relative;
+top: 60px;
+}
+
+.driver__desc1{
+    color: #495567;
+font-family: 'Golos Text';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+margin-left: 150px;
+position: relative;
+top: 100px;
+width: 650px;
+height: 75px;
+}
+
+.driver__box2{
+    width: 900px;
+    height: 130px;
+    background: #F2F5F9;
+    margin-left: 700px;
+    position: relative;
+    top: 600px;
+}
+
+.driver__title2{
+    color: #495567;
+font-family:'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+margin-left: 150px;
+position: relative;
+top: 50px;
+}
+
+.driver__box3{
+    width: 900px;
+    height: 130px;
+    background: #F2F5F9;
+    margin-left: 700px;
+    position: relative;
+    top: 630px;
+}
+
+.driver__title3{
+    margin-left: 150px;
+    position: relative;
+    top: 50px;
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: -1.071px;
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 1600px;
+    height: 500px;
+    background: #495567;
+    position: relative;
+    top: 800px;
+    margin-left: 150px;
+}
+
+.footer__title{
+    width: 415px;
+    height: 96px;
+    color: #FFF;
+font-family: 'Space Mono';
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+letter-spacing: -2.143px;
+margin-left: 165px;
+position: absolute;
+top: 102px;
+}
+
+.apple{
+    width: 159px;
+    height: 56px;
+    background: #E5ECF4;
+    border-radius: 4px;
+    position: relative;
+    top: 122px;
+    margin-left: 1000px;
+}
+
+
+.apple__photo{
+    padding: 14px 16px;
+}
+
+.apple__title{
+    color: #495567;
+font-family: 'Space Mono';
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.446px;
+position: relative;
+bottom: 50px;
+margin-left: 52px;
+}
+
+.apple__appstore{
+    color: #2F3B59;
+font-family: 'Space Mono';
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+letter-spacing: -0.893px;
+margin-left: 52px;
+position: relative;
+bottom: 50px;
+}
+
+.playmarket{
+    width: 182px;
+    height: 56px;
+    border-radius: 4px;
+    background: #E5ECF4;    
+    position: relative;
+    top: 65px;
+    margin-left: 1200px;
+}
+
+.playmarket__logo{
+    padding: 14px 16px;
+}
+
+.playmarket__title{
+color: #2F3B59;
+font-family: 'Space Mono';
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.446px;
+position: relative;
+bottom: 50px;
+margin-left: 52px;
+}
+
+.playmarket__desc{
+    margin-left: 52px;
+position: relative;
+bottom: 50px;
+color: #495567;
+font-family: 'Space Mono';
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+letter-spacing: -0.893px;
+}
+
+.footer1{
+    width: 1600px;
+    height: 120px;
+    background: #333A44;
+    position: relative;
+    top: 267px;
+}
+
+.footer1__logo{
+    margin-left: 168.6px;
+    position: relative;
+    top: 45px;
+}
+
+.footer1__title1{
+    width: 46px;
+    height: 25px;
+    color: #939CAA;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+margin-left: 380px;
+position: relative;
+top: 15px;
+}
+
+.footer1__title2{
+    color: #939CAA;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+margin-left: 500px;
+position: relative;
+bottom: 10px;
+}
+
+.footer1__title3{
+    color: #939CAA;
+font-family: 'Space Mono';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+margin-left: 650px;
+position: relative;
+bottom: 35px;
+}
+
+.social__media{
+    margin-left: 1200px;
+    position: relative;
+    bottom: 60px;
+}
+
+.money{
+    position: relative;
+    top: 150px;
+}
